@@ -1,0 +1,104 @@
+@import (css) url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+@black: #131313;
+@withe: #FFFF;
+@grey: #e9e9e9;
+@blue: #3575d3;
+@blue-king: #2f2fa1;
+
+/**
+===============================
+            Buttons
+===============================
+ */
+.btn {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: @blue !important;
+}
+
+/**
+===============================
+            BackGrounds
+===============================
+ */
+.bg-black {
+    background-color: @black;
+}
+
+/**
+===============================
+            Colors
+===============================
+ */
+.color-withe {
+    color: @withe;
+}
+
+.color-blue-king {
+    color: @blue-king !important;
+}
+
+body {
+    font-family: 'Josefin Slab', serif;
+    background-color: @grey;
+}
+
+nav {
+    height: 78px;
+}
+
+footer {
+    height: fit-content;
+    min-height: 90px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: relative;
+}
+
+.wrapper {
+    min-height: calc(100vh - 78px - 50px);
+
+    .container-fluid {
+        min-height: calc(100vh - 78px - 50px);
+    }
+}
+
+/**
+===============================
+        Elements
+===============================
+ */
+
+.background-cover-center {
+    background-size: cover;
+    background-position: center;
+}
+
+.text-border {
+    text-shadow: 2px 0 0 @black, -2px 0 0 @black, 0 2px 0 @black, 0 -2px 0 @black, 1px 1px @black, -1px -1px 0 @black, 1px -1px 0 @black, -1px 1px 0 @black;
+}
+
+#welcome-banner {
+    position: fixed;
+    top: 0;
+    left: 10px;
+    height: 100% !important;
+    border-radius: 15px;
+    width: 100%;
+
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.7) 55%, rgba(255, 255, 255, .98) 75%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.7) 55%, rgba(255, 255, 255, .98) 75%, rgba(255, 255, 255, 1) 100%);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.7) 55%, rgba(255, 255, 255, .98) 75%, rgba(255, 255, 255, 1) 100%);
+
+    h1, h2, h5, h3, h4 {
+        color: black;
+    }
+}
+
+.card-about {
+    border-radius: 15px;
+}
