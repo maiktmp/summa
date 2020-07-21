@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/quienes_somos', function () {
     return view('about.about');
 })->name('about');
+
+Route::get('/servicios', function () {
+    return view('services.index');
+})->name('services');

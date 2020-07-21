@@ -15,7 +15,10 @@
 ===============================
  */
 .bg-black {
-  background-color: #131313;
+  background-color: #121212;
+}
+.bg-withe {
+  background-color: #FFFF;
 }
 /**
 ===============================
@@ -28,12 +31,23 @@
 .color-blue-king {
   color: #2f2fa1 !important;
 }
+.color-black {
+  color: #121212 !important;
+}
 body {
   font-family: 'Josefin Slab', serif;
   background-color: #e9e9e9;
 }
 nav {
   height: 78px;
+}
+nav .navbar-toggler {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+nav .navbar-collapse {
+  background: #121212;
+  text-align: center;
 }
 footer {
   height: -webkit-fit-content;
@@ -46,10 +60,13 @@ footer {
   position: relative;
 }
 .wrapper {
-  min-height: calc(100vh - 78px - 50px);
+  min-height: calc(100vh - 78px - 90px);
 }
 .wrapper .container-fluid {
-  min-height: calc(100vh - 78px - 50px);
+  min-height: calc(100vh - 78px - 90px);
+}
+.full-h {
+  min-height: calc(100vh - 78px - 90px);
 }
 /**
 ===============================
@@ -61,7 +78,7 @@ footer {
   background-position: center;
 }
 .text-border {
-  text-shadow: 2px 0 0 #131313, -2px 0 0 #131313, 0 2px 0 #131313, 0 -2px 0 #131313, 1px 1px #131313, -1px -1px 0 #131313, 1px -1px 0 #131313, -1px 1px 0 #131313;
+  text-shadow: 2px 0 0 #121212, -2px 0 0 #121212, 0 2px 0 #121212, 0 -2px 0 #121212, 1px 1px #121212, -1px -1px 0 #121212, 1px -1px 0 #121212, -1px 1px 0 #121212;
 }
 #welcome-banner {
   position: fixed;
@@ -82,4 +99,14 @@ footer {
 }
 .card-about {
   border-radius: 15px;
+}
+.img-service {
+  background-position: center center;
+  background-size: cover;
+  width: 20%;
+  max-height: 250px;
+  min-height: 250px;
+}
+.card-flex {
+  flex: 1 1 0px;
 }

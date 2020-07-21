@@ -38,9 +38,9 @@
 
     <div id="welcome-banner" class="row d-flex slideInLeft animated delay-1s">
         <div class="col-12 text-left color-withe align-self-center p-3">
-            <h3 class="color-blue-king">Taller de reparación</h3>
-            <h1 class="color-blue-king">SUMMA MULTIMARCAS</h1>
-            <h4 class="color-blue-king">Somos tu mejor opción</h4>
+            <h3 class="color-black">Taller de reparación</h3>
+            <h1 class="color-black">SUMMA MULTIMARCAS</h1>
+            <h4 class="color-black">Somos tu mejor opción</h4>
             <button class="btn btn-outline-primary ">Conoce nuestro trabajo</button>
         </div>
 

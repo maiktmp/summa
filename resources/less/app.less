@@ -1,6 +1,6 @@
 @import (css) url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
-@black: #131313;
+@black: #121212;
 @withe: #FFFF;
 @grey: #e9e9e9;
 @blue: #3575d3;
@@ -28,6 +28,10 @@
     background-color: @black;
 }
 
+.bg-withe {
+    background-color: @withe;
+}
+
 /**
 ===============================
             Colors
@@ -41,6 +45,10 @@
     color: @blue-king !important;
 }
 
+.color-black {
+    color: @black !important;
+}
+
 body {
     font-family: 'Josefin Slab', serif;
     background-color: @grey;
@@ -48,6 +56,20 @@ body {
 
 nav {
     height: 78px;
+
+    .navbar-toggler {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .navbar-collapse {
+        background: @black;
+        text-align: center;
+
+        .navbar-nav {
+        }
+
+    }
 }
 
 footer {
@@ -60,11 +82,15 @@ footer {
 }
 
 .wrapper {
-    min-height: calc(100vh - 78px - 50px);
+    min-height: calc(100vh - 78px - 90px);
 
     .container-fluid {
-        min-height: calc(100vh - 78px - 50px);
+        min-height: calc(100vh - 78px - 90px);
     }
+}
+
+.full-h {
+    min-height: calc(100vh - 78px - 90px);
 }
 
 /**
@@ -101,4 +127,16 @@ footer {
 
 .card-about {
     border-radius: 15px;
+}
+
+.img-service {
+    background-position: center center;
+    background-size: cover;
+    width: 20%;
+    max-height: 250px;
+    min-height: 250px;
+}
+
+.card-flex {
+    flex: 1 1 0px;
 }

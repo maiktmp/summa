@@ -17,7 +17,7 @@
                             <h3>SUMMA MULTIMARCAS</h3>
                         </div>
                         <div class=" my-2 col-12 col-md-4 d-flex align-content-center justify-content-center">
-                            <img class="img-fluid rounded" width="250" height="250" src="{{asset('img/taller_3.jpg')}}"
+                            <img class="img-fluid rounded" width="400" height="400" src="{{asset('img/taller_3.jpg')}}"
                                  alt="">
                         </div>
                         <div class="col text-center">
