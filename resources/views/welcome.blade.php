@@ -16,23 +16,20 @@
 
 @section('content')
 
-    <div class="owl-carousel owl-theme" style="z-index: -1">
-        <div class="container-fluid
-    background-cover-center "
+    <div class="owl-carousel owl-theme" style="z-index: -1;">
+        <div class="container-fluid background-cover-center "
              style="background-image: url('{{ asset('img/drive.jpg') }}');
-                 height: calc(100vh - 50px);">
+                 height: 100vh">
         </div>
 
-        <div class="container-fluid
-    background-cover-center "
+        <div class="container-fluid background-cover-center "
              style="background-image: url('{{ asset('img/taller_1.jpg') }}');
-                 height: calc(100vh - 50px);">
+                 height: 100vh">
         </div>
 
-        <div class="container-fluid
-    background-cover-center "
+        <div class="container-fluid background-cover-center "
              style="background-image: url('{{ asset('img/taller_2.jpg') }}');
-                 height: calc(100vh - 50px);">
+                 height: 100vh">
         </div>
     </div>
 
@@ -45,4 +42,9 @@
         </div>
 
     </div>
+
+    @include('about.about')
+    @include('services.index')
+    @include('location.location')
+    @include('contact.contact')
 @endsection

@@ -20,6 +20,9 @@
 .bg-withe {
   background-color: #FFFF;
 }
+.bg-blue {
+  background-color: #1867c1;
+}
 /**
 ===============================
             Colors
@@ -29,7 +32,7 @@
   color: #FFFF;
 }
 .color-blue-king {
-  color: #2f2fa1 !important;
+  color: #1867c1 !important;
 }
 .color-black {
   color: #121212 !important;
@@ -81,10 +84,10 @@ footer {
   text-shadow: 2px 0 0 #121212, -2px 0 0 #121212, 0 2px 0 #121212, 0 -2px 0 #121212, 1px 1px #121212, -1px -1px 0 #121212, 1px -1px 0 #121212, -1px 1px 0 #121212;
 }
 #welcome-banner {
-  position: fixed;
-  top: 0;
+  position: absolute;
+  top: 78px;
   left: 10px;
-  height: 100% !important;
+  height: 100vh;
   border-radius: 15px;
   width: 100%;
   background: linear-gradient(to left, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.7) 55%, rgba(255, 255, 255, 0.98) 75%, #ffffff 100%);
@@ -109,4 +112,31 @@ footer {
 }
 .card-flex {
   flex: 1 1 0px;
+}
+#img-about {
+  width: 200px;
+  height: auto;
+}
+@media (min-width: 576px) {
+  #img-about {
+    width: 90vw;
+  }
+}
+@media (min-width: 768px) {
+  #img-about {
+    width: 200px;
+  }
+}
+@media (min-width: 992px) {
+  #img-about {
+    width: 20vw;
+  }
+}
+@media (min-width: 1200px) {
+  #img-about {
+    width: 300px;
+  }
+}
+.bmd-label-static {
+  color: black;
 }

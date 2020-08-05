@@ -11,9 +11,9 @@
 </head>
 <body>
 <div class='main-container'>
-    <header>
-        @include('components.navbar')
-    </header>
+
+    @include('components.navbar')
+
     <section class="wrapper">
         @yield('content')
     </section>

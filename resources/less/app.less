@@ -4,7 +4,8 @@
 @withe: #FFFF;
 @grey: #e9e9e9;
 @blue: #3575d3;
-@blue-king: #2f2fa1;
+@blue-king: #1867c1;
+
 
 /**
 ===============================
@@ -30,6 +31,10 @@
 
 .bg-withe {
     background-color: @withe;
+}
+
+.bg-blue {
+    background-color: @blue-king;
 }
 
 /**
@@ -109,10 +114,10 @@ footer {
 }
 
 #welcome-banner {
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top: 78px;
     left: 10px;
-    height: 100% !important;
+    height: 100vh;
     border-radius: 15px;
     width: 100%;
 
@@ -139,4 +144,32 @@ footer {
 
 .card-flex {
     flex: 1 1 0px;
+}
+
+#img-about {
+    width: 200px;
+    height: auto;
+    @media (min-width: 576px) {
+        width: 90vw;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) {
+        width: 200px;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) {
+        width: 20vw;
+    }
+
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) {
+        width: 300px;
+    }
+}
+
+
+.bmd-label-static {
+    color: black;
 }
